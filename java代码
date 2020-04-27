@@ -1,0 +1,18 @@
+package 报告2;
+
+class Letter{
+	String ch="大写字母：A、B、C、D、E、F、G、H、I、J、K、L、M、N、O、P、Q、R、S、T、U、V、W、X、Y、Z。";
+	String c="小写字母：a、b、c、d、e、f、g、h、i、j、k、l、m、n、o、p、q、r、s、t、u、v、w、x、y、z。";
+	public void printLetter() {
+		System.out.println(ch+"\n"+c);
+	}
+}
+
+
+public class Test01 {
+	public static void main(String[] args) {
+		Letter p=new Letter();
+		p.printLetter();
+	}
+}
+  
